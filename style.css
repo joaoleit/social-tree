@@ -57,17 +57,18 @@ a {
   flex-direction: column;
 }
 
-.menu-item {
+.menu-link {
+  display: inline-block;
+  width: 250px;
   border: 1px solid var(--purple);
+  padding: 10px;
   margin-top: 1rem;
+  text-align: center;
+  font-weight: bold;
 }
 
-.menu-link {
-  text-align: center;
-  display: inline-block;
-  font-weight: bold;
-  width: 250px;
-  padding: 10px;
+.menu-link:hover {
+  background-color: #e8e8e8;
 }
 
 .socials {
