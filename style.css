@@ -55,6 +55,7 @@ a {
 }
 
 .menu-link {
+  box-sizing: border-box;
   display: inline-block;
   width: 250px;
   border: 1px solid var(--purple);
