@@ -72,5 +72,13 @@ a {
 .socials {
   display: flex;
   margin-top: 3rem;
-  gap: 2rem;
+}
+
+.socials a {
+  height: 24px;
+  padding: 4px;
+}
+
+.socials a + a {
+  margin-left: 1.5rem;
 }
